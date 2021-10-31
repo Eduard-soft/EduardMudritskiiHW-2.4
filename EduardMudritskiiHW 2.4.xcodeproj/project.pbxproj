@@ -17,6 +17,7 @@
 		23A33336272E7BCD008CB249 /* MemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A33335272E7BCD008CB249 /* MemberViewController.swift */; };
 		23A33338272E9498008CB249 /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A33337272E9498008CB249 /* StudyViewController.swift */; };
 		23A3333A272EA98D008CB249 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A33339272EA98D008CB249 /* ProjectViewController.swift */; };
+		23A3333C272EC0BD008CB249 /* Storyboards in Resources */ = {isa = PBXBuildFile; fileRef = 23A3333B272EC0BD008CB249 /* Storyboards */; };
 		23B87EA7272DD23200304E97 /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B87EA6272DD23200304E97 /* Members.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		23A33335272E7BCD008CB249 /* MemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberViewController.swift; sourceTree = "<group>"; };
 		23A33337272E9498008CB249 /* StudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StudyViewController.swift; path = "EduardMudritskiiHW 2.4/ViewControllers/StudyViewController.swift"; sourceTree = SOURCE_ROOT; };
 		23A33339272EA98D008CB249 /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProjectViewController.swift; path = "EduardMudritskiiHW 2.4/ProjectViewController.swift"; sourceTree = SOURCE_ROOT; };
+		23A3333B272EC0BD008CB249 /* Storyboards */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Storyboards; sourceTree = "<group>"; };
 		23B87EA6272DD23200304E97 /* Members.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Members.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				237C7E97272C465800B28C62 /* Main.storyboard */,
+				23A3333B272EC0BD008CB249 /* Storyboards */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				237C7E9E272C466000B28C62 /* LaunchScreen.storyboard in Resources */,
 				237C7E9B272C466000B28C62 /* Assets.xcassets in Resources */,
 				237C7E99272C465800B28C62 /* Main.storyboard in Resources */,
+				23A3333C272EC0BD008CB249 /* Storyboards in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
