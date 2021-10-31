@@ -15,6 +15,13 @@ class WelcomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        welcomeLabel.text = "Welcome, \(user)"
+        welcomeLabel.text = "Welcome, \(student1.name) \(student1.secondName)"
     }
+    
+    @IBAction func goToMember() {
+//        let newVS = storyboard?.instantiateViewController(withIdentifier: "MemberViewController")
+//        navigationController?.pushViewController(newVS!, animated: true)
+        
+    }
+    
 }

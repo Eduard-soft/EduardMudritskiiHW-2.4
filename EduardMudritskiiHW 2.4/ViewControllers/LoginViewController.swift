@@ -12,8 +12,9 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var loginTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
-    private let user = "User"
-    private let password = "Password"
+    private let user = student1.login
+    private let password =
+    student1.password
     
     override func viewDidLoad() {
         super.viewDidLoad()
